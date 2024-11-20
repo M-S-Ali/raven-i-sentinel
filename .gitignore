@@ -1,3 +1,6 @@
 # KiCAD
 # Removing Backup Files
 *-backups/
+
+# Official Datasheets
+docs/*.pdf
