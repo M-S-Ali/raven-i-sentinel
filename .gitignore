@@ -1,6 +1,8 @@
 # KiCAD
 # Removing Backup Files
 *-backups/
+*.bak
+fp-info-cache
 
 # Official Datasheets
 docs/*.pdf
