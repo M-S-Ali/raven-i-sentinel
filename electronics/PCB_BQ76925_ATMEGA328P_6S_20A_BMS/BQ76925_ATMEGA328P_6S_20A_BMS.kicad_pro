@@ -525,11 +525,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -576,6 +588,18 @@
     [
       "624a087f-322b-4a70-8c29-0e4f8f018e16",
       "Root"
+    ],
+    [
+      "87862f27-26e3-4a63-80aa-70bc4698f5cc",
+      "24V 6 Cell Monitoring"
+    ],
+    [
+      "8ac54c25-c4c2-47e9-9217-d0c10d04e631",
+      "Power Switch"
+    ],
+    [
+      "e88de734-726e-4991-811a-b88126c63525",
+      "MCU"
     ]
   ],
   "text_variables": {}
