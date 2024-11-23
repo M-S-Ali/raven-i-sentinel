@@ -123,7 +123,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 107.95)
+			(xy 106.68 107.95) (xy 106.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -133,7 +133,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 113.03 107.95)
+			(xy 111.76 107.95) (xy 111.76 129.54)
 		)
 		(stroke
 			(width 0)
@@ -143,7 +143,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 115.57 107.95)
+			(xy 114.3 107.95) (xy 114.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -153,7 +153,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 123.19 107.95)
+			(xy 121.92 107.95) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -163,7 +163,37 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 76.2) (xy 72.39 76.2)
+			(xy 200.66 138.43) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1416d5ca-41a2-45ad-a42a-e67a202d730e")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1958df6b-a71a-43b7-b2ee-eca7b3fbc952")
+	)
+	(polyline
+		(pts
+			(xy 14.224 166.624) (xy 57.404 166.624)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "2d45ff55-b859-4c5d-bea5-130079ab29b9")
+	)
+	(wire
+		(pts
+			(xy 35.56 97.79) (xy 71.12 97.79)
 		)
 		(stroke
 			(width 0.5)
@@ -171,9 +201,29 @@
 		)
 		(uuid "3702736a-8f1b-4064-8e9d-0652b01268cd")
 	)
+	(polyline
+		(pts
+			(xy 236.22 60.96) (xy 276.86 60.96)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "41af3cde-2811-433a-b836-13f3fe8c109e")
+	)
+	(polyline
+		(pts
+			(xy 15.24 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "443f51ec-3f41-4750-81dc-8320fdf4952a")
+	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 110.49 107.95)
+			(xy 109.22 107.95) (xy 109.22 129.54)
 		)
 		(stroke
 			(width 0)
@@ -181,9 +231,19 @@
 		)
 		(uuid "5ea4822a-e6b6-4213-8d38-45edb80d65d1")
 	)
+	(polyline
+		(pts
+			(xy 15.24 60.96) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "620cc3a6-1557-4686-b499-2101bd8ee003")
+	)
 	(wire
 		(pts
-			(xy 120.65 86.36) (xy 120.65 107.95)
+			(xy 119.38 107.95) (xy 119.38 129.54)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +253,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 86.36) (xy 118.11 107.95)
+			(xy 217.17 97.79) (xy 269.24 97.79)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "782670ef-3d35-4138-933a-25fe41b6b28a")
+	)
+	(polyline
+		(pts
+			(xy 13.462 29.21) (xy 189.992 29.21)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "807f074b-b74a-49fd-b188-5d68378d152c")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 116.84 129.54)
 		)
 		(stroke
 			(width 0)
@@ -201,9 +281,55 @@
 		)
 		(uuid "9810f327-9c48-46f8-8e66-a90dc09be8e6")
 	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "9abbb6fc-34d8-4596-8d88-ac2ad1c966b8")
+	)
+	(text "1.	This PCB design is licensed under CC BY-SA 4.0"
+		(exclude_from_sim no)
+		(at 13.97 171.45 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "https://creativecommons.org/licenses/by-sa/4.0/")
+		)
+		(uuid "069af0e2-ef62-4566-a664-06095b678ff2")
+	)
+	(text "Justification"
+		(exclude_from_sim no)
+		(at 241.808 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "485bfaad-61da-4cb7-8349-52e2e6de434c")
+	)
+	(text "1.	Kick start development of a value-oriented, robust BMS with external communication capabilities."
+		(exclude_from_sim no)
+		(at 15.24 65.532 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "59ff7015-8c9a-4abd-a67c-257297033946")
+	)
 	(text "~{TVNBTEk=}"
 		(exclude_from_sim no)
-		(at 272.796 175.26 0)
+		(at 271.526 175.26 0)
 		(effects
 			(font
 				(face "Symbol")
@@ -213,9 +339,97 @@
 		)
 		(uuid "651c2dff-27f7-4566-9b21-54b43488e83f")
 	)
+	(text "License Agrement"
+		(exclude_from_sim no)
+		(at 34.29 162.56 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "9522e7dc-9c7d-4679-bef8-f7aa9d43f5cb")
+	)
+	(text "Warnings"
+		(exclude_from_sim no)
+		(at 240.284 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a85aea3c-e39d-42f9-bd38-214b03ab4b27")
+	)
+	(text "2. 	This PCB design is provided \"as-is,\" without warranty of any kind,\n	either express or implied, including but not limited to the warranties of merchantability, \n	fitness for a particular purpose, or non-infringement. \n3. 	The author(s) shall not be held liable for any damages,\n	injuries, or other consequences arising from the use of this design."
+		(exclude_from_sim no)
+		(at 13.716 185.42 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "b6bdb0b8-11d1-46b8-bd7d-40cd3d6b5743")
+	)
+	(text "General Comments"
+		(exclude_from_sim no)
+		(at 245.11 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6bdeaa1-b09d-4374-af08-0e5830a31242")
+	)
+	(text "Version ${REVISION}"
+		(exclude_from_sim no)
+		(at 36.322 42.164 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "b9d810bf-9e4b-47dc-bd55-35585804a7d9")
+	)
+	(text "Raven-I Sentinel"
+		(exclude_from_sim no)
+		(at 64.77 24.13 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "c7fae0cf-b2cf-4212-842f-38990f255f55")
+	)
+	(text "Version Goal"
+		(exclude_from_sim no)
+		(at 29.464 57.15 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "dad9e308-a04c-4724-a874-22eb134e821a")
+	)
+	(text "Legend"
+		(exclude_from_sim no)
+		(at 244.348 57.15 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "e4b11032-c2cb-40c8-a136-f9deb0c035a2")
+	)
 	(symbol
 		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:Conn_01x01")
-		(at 31.75 76.2 0)
+		(at 30.48 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -225,7 +439,7 @@
 		(fields_autoplaced yes)
 		(uuid "ada920ca-8dbc-49c6-b21a-ba734e8af7b4")
 		(property "Reference" "J2"
-			(at 31.75 69.85 0)
+			(at 30.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +447,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 31.75 72.39 0)
+			(at 30.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 76.2 0)
+			(at 30.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 76.2 0)
+			(at 30.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +473,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 76.2 0)
+			(at 30.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +495,7 @@
 	)
 	(symbol
 		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:Conn_01x01")
-		(at 275.59 76.2 0)
+		(at 274.32 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -289,7 +503,7 @@
 		(dnp no)
 		(uuid "caa6e11f-e0d8-4c9f-8ddb-f0195c4473c9")
 		(property "Reference" "J4"
-			(at 275.59 69.85 0)
+			(at 274.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +511,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 275.59 72.39 0)
+			(at 274.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 76.2 0)
+			(at 274.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -314,7 +528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 76.2 0)
+			(at 274.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +537,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 76.2 0)
+			(at 274.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,7 +558,7 @@
 		)
 	)
 	(sheet
-		(at 72.39 57.15)
+		(at 71.12 78.74)
 		(size 57.15 29.21)
 		(stroke
 			(width 0.1524)
@@ -355,7 +569,7 @@
 		)
 		(uuid "87862f27-26e3-4a63-80aa-70bc4698f5cc")
 		(property "Sheetname" "24V 6 Cell Monitoring"
-			(at 75.946 71.374 0)
+			(at 74.676 94.488 0)
 			(effects
 				(font
 					(size 3 3)
@@ -365,7 +579,7 @@
 			)
 		)
 		(property "Sheetfile" "BQ76925_Schematic.kicad_sch"
-			(at 72.39 86.9446 0)
+			(at 71.12 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,7 +588,7 @@
 			)
 		)
 		(pin "BAT-" output
-			(at 72.39 76.2 180)
+			(at 71.12 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +598,7 @@
 			(uuid "fd2f3bff-9dbb-4490-8f4b-21b5b9d9e9b0")
 		)
 		(pin "ALERT" output
-			(at 107.95 86.36 270)
+			(at 106.68 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +608,7 @@
 			(uuid "bac7698f-5396-4a4a-bca1-e64de2df6edb")
 		)
 		(pin "VIOUT" output
-			(at 118.11 86.36 270)
+			(at 116.84 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +618,7 @@
 			(uuid "5f93d9a0-1c0e-4b97-808b-b2eb48105714")
 		)
 		(pin "VCOUT" output
-			(at 120.65 86.36 270)
+			(at 119.38 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +628,7 @@
 			(uuid "00dfc5f1-58d8-4c11-8655-6d7d6f1d8278")
 		)
 		(pin "SCL" input
-			(at 110.49 86.36 270)
+			(at 109.22 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +638,7 @@
 			(uuid "e9021465-9c9e-4a13-abf0-8966385dc510")
 		)
 		(pin "VREF" output
-			(at 113.03 86.36 270)
+			(at 111.76 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,7 +648,7 @@
 			(uuid "d1f41643-76db-4111-be03-b3b9124c30b5")
 		)
 		(pin "SDA" bidirectional
-			(at 115.57 86.36 270)
+			(at 114.3 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +658,7 @@
 			(uuid "33bb2ea5-0279-4ab3-b91e-b411bbf30bae")
 		)
 		(pin "PACK-" input
-			(at 129.54 76.2 0)
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +668,7 @@
 			(uuid "b4515c2b-a483-4b3c-b625-a2faed0a3ffb")
 		)
 		(pin "VTB" output
-			(at 123.19 86.36 270)
+			(at 121.92 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +686,7 @@
 		)
 	)
 	(sheet
-		(at 161.29 57.15)
+		(at 160.02 78.74)
 		(size 57.15 29.21)
 		(stroke
 			(width 0.1524)
@@ -483,7 +697,7 @@
 		)
 		(uuid "8ac54c25-c4c2-47e9-9217-d0c10d04e631")
 		(property "Sheetname" "Power Switch"
-			(at 175.26 71.12 0)
+			(at 173.736 94.742 0)
 			(effects
 				(font
 					(size 3 3)
@@ -493,13 +707,43 @@
 			)
 		)
 		(property "Sheetfile" "IRFB4110_Power_Switch.kicad_sch"
-			(at 161.29 86.9446 0)
+			(at 160.02 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SW" input
+			(at 200.66 107.95 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13b4daa4-05b2-4eb3-9371-bd20807e9d8f")
+		)
+		(pin "PACK-" output
+			(at 160.02 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f017eae-56a8-446b-b6eb-e8cb0fd9d1a8")
+		)
+		(pin "BAT-" input
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "507532b2-97ef-4dbd-a395-cb37fc820406")
 		)
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
@@ -510,8 +754,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 107.95)
-		(size 57.15 29.21)
+		(at 100.33 129.54)
+		(size 27.94 29.21)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -521,7 +765,7 @@
 		)
 		(uuid "e88de734-726e-4991-811a-b88126c63525")
 		(property "Sheetname" "MCU"
-			(at 96.012 120.904 0)
+			(at 108.966 146.304 0)
 			(effects
 				(font
 					(size 3 3)
@@ -531,7 +775,7 @@
 			)
 		)
 		(property "Sheetfile" "Atmega328P.kicad_sch"
-			(at 72.39 137.7446 0)
+			(at 100.33 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +784,7 @@
 			)
 		)
 		(pin "VIOUT" input
-			(at 118.11 107.95 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +794,7 @@
 			(uuid "2babc18c-708f-4d29-b9ec-8c41aea01669")
 		)
 		(pin "SDA" bidirectional
-			(at 115.57 107.95 90)
+			(at 114.3 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +804,7 @@
 			(uuid "a5e93dc1-90d3-4ab8-9f6b-82b876869d2a")
 		)
 		(pin "VCOUT" input
-			(at 120.65 107.95 90)
+			(at 119.38 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +814,7 @@
 			(uuid "bdad1ccf-e392-4151-82c0-67b5b67717d5")
 		)
 		(pin "VREF" input
-			(at 113.03 107.95 90)
+			(at 111.76 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +824,7 @@
 			(uuid "83ecd72d-b0bd-4be7-aa8b-507c760f161b")
 		)
 		(pin "ALERT" input
-			(at 107.95 107.95 90)
+			(at 106.68 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +834,7 @@
 			(uuid "4f4581c4-734f-469d-b2c7-0d76733ca8d5")
 		)
 		(pin "SCL" output
-			(at 110.49 107.95 90)
+			(at 109.22 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +844,7 @@
 			(uuid "8477130d-ba6d-4d99-b200-3dda22659151")
 		)
 		(pin "VTB" input
-			(at 123.19 107.95 90)
+			(at 121.92 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,6 +852,16 @@
 				(justify right)
 			)
 			(uuid "00d91034-4c87-4a4c-9aab-41c1803be52a")
+		)
+		(pin "SW" output
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65862744-f57f-45d4-ae68-1128ab270a62")
 		)
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"

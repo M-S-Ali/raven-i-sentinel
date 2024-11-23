@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "71792586-afb2-4b53-be49-0798ff39cb2c")
 	(paper "A4")
+	(title_block
+		(title "Raven-I Sentinel")
+		(company "M S Ali")
+	)
 	(lib_symbols
 		(symbol "BQ76925_ATMEGA328P_6S_20A_BMS:+5V"
 			(power)
@@ -105,6 +109,126 @@
 				)
 			)
 			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BQ76925_ATMEGA328P_6S_20A_BMS:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1909,6 +2033,12 @@
 		(uuid "4b587f1a-4e5e-46bf-af54-6d61e0eebe88")
 	)
 	(junction
+		(at 62.23 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c1bbfb9-87bb-4155-85ff-5dde75fb2c89")
+	)
+	(junction
 		(at 144.78 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2340,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 76.2) (xy 62.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f817c4d-0ce4-4783-9a9e-2c62c7f3109d")
+	)
+	(wire
+		(pts
 			(xy 55.88 99.06) (xy 69.85 99.06)
 		)
 		(stroke
@@ -2577,6 +2717,16 @@
 			(type default)
 		)
 		(uuid "5c2b2c04-0475-47b4-9324-760afa7a8f91")
+	)
+	(wire
+		(pts
+			(xy 62.23 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f34965-37fd-4e29-a413-025890d33bbe")
 	)
 	(wire
 		(pts
@@ -3390,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 78.74) (xy 55.88 78.74)
+			(xy 71.12 78.74) (xy 62.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3477,6 +3627,29 @@
 			(type default)
 		)
 		(uuid "fee38faa-7ed1-4a06-ab3f-bea1a4f27153")
+	)
+	(text "~{TVNBTEk=}"
+		(exclude_from_sim no)
+		(at 272.796 173.99 0)
+		(effects
+			(font
+				(face "Symbol")
+				(size 3 3)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "bbe54e56-903f-4326-a245-4937f366c1ba")
+	)
+	(text "BQ76925 Schematic 24V 6 Cell Monitoring"
+		(exclude_from_sim no)
+		(at 63.5 20.828 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "d4a681d2-c813-4249-bd00-b687bb1df68e")
 	)
 	(hierarchical_label "PACK-"
 		(shape input)
@@ -3927,6 +4100,72 @@
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:+BATT")
+		(at 62.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c61e934-85ba-4cc1-9765-8bae885fcedb")
+		(property "Reference" "#PWR034"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b4ad5f-9d67-433a-974e-6ca0a7ca1b4d")
+		)
+		(instances
+			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
+				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6426,7 +6665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 264.16 95.25 0)
 			(effects
 				(font
