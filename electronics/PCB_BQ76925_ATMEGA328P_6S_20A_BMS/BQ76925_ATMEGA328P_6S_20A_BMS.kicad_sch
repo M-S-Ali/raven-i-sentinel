@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Raven-I Sentinel")
+		(date "2024-11-23")
 		(rev "1.0")
 		(company "M S Ali")
 	)
@@ -438,7 +439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada920ca-8dbc-49c6-b21a-ba734e8af7b4")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 30.48 91.44 0)
 			(effects
 				(font
@@ -487,7 +488,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -502,7 +503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caa6e11f-e0d8-4c9f-8ddb-f0195c4473c9")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 274.32 91.44 0)
 			(effects
 				(font
@@ -551,7 +552,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)

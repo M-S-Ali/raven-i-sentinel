@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Raven-I Sentinel")
+		(date "2024-11-23")
 		(company "M S Ali")
 	)
 	(lib_symbols
@@ -3841,7 +3842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b04ba5-23c3-46d3-86a9-a0c6c8b0242f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR014"
 			(at 264.16 106.68 0)
 			(effects
 				(font
@@ -3891,7 +3892,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR021")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3907,7 +3908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a491c8f-2ad8-41ec-bf6d-3b8a30ddf2da")
-		(property "Reference" "R21"
+		(property "Reference" "R12"
 			(at 90.17 116.84 90)
 			(effects
 				(font
@@ -3959,7 +3960,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R21")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3975,7 +3976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a5523a2-f066-40b4-8cdb-4038a7b12468")
-		(property "Reference" "R23"
+		(property "Reference" "R4"
 			(at 215.9 72.3899 0)
 			(effects
 				(font
@@ -4029,7 +4030,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R23")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4045,7 +4046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c50bd96-2e7f-4665-9f3a-7516a78b7362")
-		(property "Reference" "C20"
+		(property "Reference" "C3"
 			(at 154.94 67.3162 0)
 			(effects
 				(font
@@ -4099,7 +4100,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C20")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c61e934-85ba-4cc1-9765-8bae885fcedb")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR09"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -4165,7 +4166,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR034")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4181,7 +4182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ccb3c33-3166-43ae-95fd-85df63e50b45")
-		(property "Reference" "R22"
+		(property "Reference" "R5"
 			(at 242.57 72.3899 0)
 			(effects
 				(font
@@ -4235,7 +4236,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R22")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4251,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101aef8e-1e7e-485c-a879-369bc2c3223a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 102.87 114.3 0)
 			(effects
 				(font
@@ -4302,7 +4303,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4318,7 +4319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1af9b641-462d-4fef-8a16-ce802cc2c344")
-		(property "Reference" "R19"
+		(property "Reference" "R10"
 			(at 90.17 93.98 90)
 			(effects
 				(font
@@ -4370,7 +4371,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R19")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4386,7 +4387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e0b4532-2329-4033-bdb1-057986ed2bd9")
-		(property "Reference" "R20"
+		(property "Reference" "R11"
 			(at 90.17 105.41 90)
 			(effects
 				(font
@@ -4438,7 +4439,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0c5823-c6f4-4a02-a636-5748dec2f043")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 161.29 133.35 90)
 			(effects
 				(font
@@ -4506,7 +4507,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4522,7 +4523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "335b7bf0-b34a-4d27-ad97-d156a2a6878d")
-		(property "Reference" "C14"
+		(property "Reference" "C5"
 			(at 105.41 80.0162 0)
 			(effects
 				(font
@@ -4540,7 +4541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 81.28 0)
 			(effects
 				(font
@@ -4576,7 +4577,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C14")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4592,7 +4593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b5e09e-f2a9-4ed5-b881-ef1805ce7d1e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 97.79 53.34 0)
 			(effects
 				(font
@@ -4642,7 +4643,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4658,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa6f9af-79ab-4355-8818-511fc176255f")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 105.41 102.8762 0)
 			(effects
 				(font
@@ -4676,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 104.14 0)
 			(effects
 				(font
@@ -4712,7 +4713,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4728,7 +4729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4abb4900-0a56-4579-8677-9b70615bdc59")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 90.17 82.55 90)
 			(effects
 				(font
@@ -4780,7 +4781,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R18")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4796,7 +4797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc7e6fc-5bea-485d-9484-5fe8e15c9999")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 240.03 73.66 0)
 			(effects
 				(font
@@ -4846,7 +4847,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e92081b-b855-44e3-8347-f9d880513f3f")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 90.17 71.12 90)
 			(effects
 				(font
@@ -4914,7 +4915,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R17")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5000de5d-3ed1-44d1-b514-379db2346754")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -4981,7 +4982,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4997,7 +4998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e19988-126a-4ef4-abe3-3a68559a5283")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -5048,7 +5049,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5064,7 +5065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632b8531-1ba1-4391-a536-16a07402f21a")
-		(property "Reference" "R24"
+		(property "Reference" "R6"
 			(at 266.7 72.3899 0)
 			(effects
 				(font
@@ -5118,7 +5119,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b51de5a-299c-4c99-b667-b1dfac5cffad")
-		(property "Reference" "C22"
+		(property "Reference" "C8"
 			(at 242.57 93.9735 0)
 			(effects
 				(font
@@ -5152,7 +5153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 240.03 95.25 0)
 			(effects
 				(font
@@ -5188,7 +5189,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C22")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5204,7 +5205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d6d9231-4fe9-4e0b-979e-32acdad88024")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 186.69 99.0599 0)
 			(effects
 				(font
@@ -5258,7 +5259,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5274,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dee90d0-ef65-488b-b13e-277d76ec4440")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -5325,7 +5326,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5341,7 +5342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cb49f52-0ea5-45eb-b836-369f3a41df2b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 264.16 73.66 0)
 			(effects
 				(font
@@ -5391,7 +5392,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5407,7 +5408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e4b16af-0fc5-4ad3-a742-d9dcc1b44403")
-		(property "Reference" "R15"
+		(property "Reference" "R2"
 			(at 90.17 48.26 90)
 			(effects
 				(font
@@ -5459,7 +5460,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R15")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5475,7 +5476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bcfa8c2-465b-42e0-a191-0a64547443f3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR013"
 			(at 240.03 106.68 0)
 			(effects
 				(font
@@ -5525,7 +5526,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR020")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5541,7 +5542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b4863e-10c3-4400-a199-60648d66c831")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 102.87 102.87 0)
 			(effects
 				(font
@@ -5592,7 +5593,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5608,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c539b96-acb5-4e65-a23e-9b3ab43dcf0a")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 147.32 128.2699 0)
 			(effects
 				(font
@@ -5662,7 +5663,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fbfc3a0-b1fb-4a86-8f84-6d827c9cb1e7")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 105.41 125.7362 0)
 			(effects
 				(font
@@ -5696,7 +5697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 127 0)
 			(effects
 				(font
@@ -5732,7 +5733,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a079a989-7d86-4feb-b76e-7acdc906a1bf")
-		(property "Reference" "C12"
+		(property "Reference" "C2"
 			(at 105.41 57.1562 0)
 			(effects
 				(font
@@ -5766,7 +5767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -5802,7 +5803,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C12")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5818,7 +5819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0f8bc09-4b42-4e24-8da7-7898e8d6e2b1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 102.87 80.01 0)
 			(effects
 				(font
@@ -5869,7 +5870,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5885,7 +5886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f8d0ed-0f4b-420f-9d51-f76783b03585")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR012"
 			(at 213.36 106.68 0)
 			(effects
 				(font
@@ -5935,7 +5936,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR022")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5951,7 +5952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f02b51-0be8-4a48-8a0f-095109f6ea21")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 102.87 137.16 0)
 			(effects
 				(font
@@ -6002,7 +6003,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6330a39-0e10-4a5e-afd6-fe479bf416cb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 102.87 68.58 0)
 			(effects
 				(font
@@ -6069,7 +6070,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9309dd9-8583-44ac-a914-2af424ef963d")
-		(property "Reference" "C13"
+		(property "Reference" "C4"
 			(at 105.41 68.5862 0)
 			(effects
 				(font
@@ -6103,7 +6104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 69.85 0)
 			(effects
 				(font
@@ -6139,7 +6140,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6155,7 +6156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add68f8e-89ae-4cfe-a06f-98613da389e7")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 87.63 31.75 90)
 			(effects
 				(font
@@ -6207,7 +6208,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6223,7 +6224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afd7da6d-e0a7-43e6-8b0d-851407d02ab7")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 179.07 128.2699 0)
 			(effects
 				(font
@@ -6277,7 +6278,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2215c59-75fa-4c58-aed5-4d37f86e5f94")
-		(property "Reference" "C24"
+		(property "Reference" "C7"
 			(at 215.9 93.9862 0)
 			(effects
 				(font
@@ -6311,7 +6312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.36 95.25 0)
 			(effects
 				(font
@@ -6347,7 +6348,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C24")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2290412-b9f3-43e8-b2db-92738b8cdf01")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 50.8 72.39 0)
 			(effects
 				(font
@@ -6437,7 +6438,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6586,7 +6587,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" " BZT52C30-13-F"
+		(property "Value" "30V"
 			(at 95.25 44.4499 90)
 			(effects
 				(font
@@ -6647,7 +6648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c220e933-165c-4cc9-bdac-28133529e4f4")
-		(property "Reference" "C23"
+		(property "Reference" "C9"
 			(at 266.7 93.9735 0)
 			(effects
 				(font
@@ -6701,7 +6702,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C23")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7afee11-e91c-4789-a03b-5b9a153775f9")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 181.61 88.8999 0)
 			(effects
 				(font
@@ -6802,7 +6803,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -6838,7 +6839,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.99 100.33 0)
 			(effects
 				(font
@@ -6924,7 +6925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de660920-927d-4212-a4ae-30a4c34cb868")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 161.29 143.51 90)
 			(effects
 				(font
@@ -6976,7 +6977,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6992,7 +6993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe80970-1706-44c5-ae6e-0e71d0fe63ba")
-		(property "Reference" "C15"
+		(property "Reference" "C6"
 			(at 105.41 91.4462 0)
 			(effects
 				(font
@@ -7010,7 +7011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 92.71 0)
 			(effects
 				(font
@@ -7046,7 +7047,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C15")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9b533ea-c59a-4782-ae9f-938f6f6e1efe")
-		(property "Reference" "C19"
+		(property "Reference" "C1"
 			(at 107.95 41.9162 0)
 			(effects
 				(font
@@ -7116,7 +7117,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C19")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7132,7 +7133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6e27ee-5e05-474c-9a2d-844114ad94b5")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 161.2963 115.57 90)
 			(effects
 				(font
@@ -7148,7 +7149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 161.29 121.92 0)
 			(effects
 				(font
@@ -7184,7 +7185,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7200,7 +7201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf78f1f-33ba-4307-8c95-b793076c5911")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -7251,7 +7252,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7267,7 +7268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8e3d6a-69ec-407b-92e7-5ae92a57c77e")
-		(property "Reference" "R16"
+		(property "Reference" "R3"
 			(at 90.17 59.69 90)
 			(effects
 				(font
@@ -7319,7 +7320,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "R16")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7335,7 +7336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68011d0-68a3-4c1d-86f9-3ced15fcd52f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR04"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -7385,7 +7386,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR018")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc47e4bc-cf2b-4240-a5a4-867931e9278c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -7520,7 +7521,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7536,7 +7537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb822f5-5547-436e-8527-6e4593432bc2")
-		(property "Reference" "C17"
+		(property "Reference" "C12"
 			(at 105.41 114.3062 0)
 			(effects
 				(font
@@ -7554,7 +7555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 102.87 115.57 0)
 			(effects
 				(font
@@ -7590,7 +7591,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/87862f27-26e3-4a63-80aa-70bc4698f5cc"
-					(reference "C17")
+					(reference "C12")
 					(unit 1)
 				)
 			)
