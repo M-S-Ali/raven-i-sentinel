@@ -1407,6 +1407,177 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "NMOS_1"
 			(pin_numbers hide)
 			(pin_names
@@ -1707,6 +1878,12 @@
 		(uuid "0694852c-c389-462e-8d6d-b6641cebde6d")
 	)
 	(junction
+		(at 151.13 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08f09456-91cd-46c8-bb7a-cc76567a6789")
+	)
+	(junction
 		(at 165.1 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1717,6 +1894,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "110fc596-88dc-4471-8b82-dbcd6983ee82")
+	)
+	(junction
+		(at 161.29 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248d9001-268b-4875-a749-944482560c0c")
 	)
 	(junction
 		(at 86.36 163.83)
@@ -1964,6 +2147,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 181.61) (xy 151.13 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199c9c9f-035a-4e84-8e46-804cf3ceac79")
+	)
+	(wire
+		(pts
 			(xy 165.1 78.74) (xy 165.1 80.01)
 		)
 		(stroke
@@ -2044,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 166.37) (xy 151.13 166.37)
+			(xy 165.1 166.37) (xy 161.29 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2171,6 +2364,16 @@
 			(type default)
 		)
 		(uuid "43ab0224-8b6f-4910-9aee-02bf2f793687")
+	)
+	(wire
+		(pts
+			(xy 161.29 179.07) (xy 161.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45814e9b-3db4-484b-a1c0-e46ac101f5df")
 	)
 	(wire
 		(pts
@@ -2484,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 162.56) (xy 158.75 166.37)
+			(xy 165.1 162.56) (xy 165.1 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2642,6 +2845,16 @@
 		)
 		(uuid "ccbb5775-2722-48a7-b833-ca011720aabd")
 	)
+	(wire
+		(pts
+			(xy 161.29 166.37) (xy 161.29 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce22603f-968c-42fc-9053-c4db8bb23d58")
+	)
 	(polyline
 		(pts
 			(xy 12.7 134.62) (xy 284.48 134.62)
@@ -2661,6 +2874,16 @@
 			(type default)
 		)
 		(uuid "cfee616f-76c6-40d5-8531-97ee85ac93ce")
+	)
+	(wire
+		(pts
+			(xy 161.29 166.37) (xy 151.13 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17feaa4-183d-4163-9bba-8491e02ea390")
 	)
 	(wire
 		(pts
@@ -3121,7 +3344,7 @@
 	)
 	(symbol
 		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:+12V")
-		(at 158.75 162.56 0)
+		(at 165.1 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3130,7 +3353,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b884370-da25-438e-8f23-3b983386c887")
 		(property "Reference" "#PWR024"
-			(at 158.75 166.37 0)
+			(at 165.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3362,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 158.75 157.48 0)
+			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 162.56 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 162.56 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 158.75 162.56 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,6 +3749,76 @@
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/8ac54c25-c4c2-47e9-9217-d0c10d04e631"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:R_Small_US")
+		(at 161.29 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595bb413-4eae-4286-b38f-ce810d45099b")
+		(property "Reference" "R27"
+			(at 163.83 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 163.83 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 161.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 161.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1dba963-d780-47d4-b531-2bc36ca2bd1d")
+		)
+		(pin "2"
+			(uuid "a8dc9585-c819-4146-a0ac-1c43b33699db")
+		)
+		(instances
+			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
+				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/8ac54c25-c4c2-47e9-9217-d0c10d04e631"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4590,6 +4883,76 @@
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/8ac54c25-c4c2-47e9-9217-d0c10d04e631"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 161.29 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dccb7494-65db-49ee-931a-45303124f537")
+		(property "Reference" "D5"
+			(at 163.83 175.1964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 163.83 177.7364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 161.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e27dad5-5042-4db5-be3d-eefc4393118a")
+		)
+		(pin "2"
+			(uuid "9b30eccb-95de-4ee5-83c9-9e1975d9c4cc")
+		)
+		(instances
+			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
+				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/8ac54c25-c4c2-47e9-9217-d0c10d04e631"
+					(reference "D5")
 					(unit 1)
 				)
 			)
