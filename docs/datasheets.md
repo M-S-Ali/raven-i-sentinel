@@ -32,3 +32,9 @@ This document provides links to official datasheets and manuals for the major co
 - **LR122WF200NT4E (2mOhm Resistor)**    
   [2mOhm Metal Strip Chip Resistor Datasheet (ROYAL OHM)](https://www.royalohm.com/assets/pdf/products/smd/15.pdf)
 ---
+
+# Transistor 
+- **MMBT2222A**   
+  [MMBT2222A NPN Datasheet (Diodes Incorporated)](https://www.diodes.com/assets/Datasheets/ds30041.pdf)
+  ---
+  
