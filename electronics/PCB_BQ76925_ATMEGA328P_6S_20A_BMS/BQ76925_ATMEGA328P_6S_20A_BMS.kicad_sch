@@ -455,7 +455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
 			(at 30.48 97.79 0)
 			(effects
 				(font
@@ -519,7 +519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
 			(at 274.32 97.79 0)
 			(effects
 				(font
