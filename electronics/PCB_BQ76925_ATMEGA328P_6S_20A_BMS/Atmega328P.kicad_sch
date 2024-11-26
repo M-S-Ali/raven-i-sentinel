@@ -3820,7 +3820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "053504b9-18b8-4b8a-acb3-429d5e7d1332")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR031"
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -3870,7 +3870,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR034")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3886,7 +3886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0709eb28-9395-4343-989f-e3ba7f5625cb")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 259.08 129.5462 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b95119d-79ac-413b-99a9-f8ae964b4286")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 260.35 86.36 0)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4022,7 +4022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "121a6599-b918-4dbb-9a1a-aa5b937abbb7")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 256.54 142.24 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4088,7 +4088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25097509-3ef7-422c-b4fd-60efc5492d1d")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 262.89 67.3099 0)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4158,7 +4158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a53ee27-e12f-4b9d-b673-e281acc94512")
-		(property "Reference" "C26"
+		(property "Reference" "C23"
 			(at 82.55 175.2662 0)
 			(effects
 				(font
@@ -4212,7 +4212,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C26")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4228,7 +4228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e3f7138-8dfe-483c-be1f-163901587e6a")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 259.08 118.1099 0)
 			(effects
 				(font
@@ -4282,7 +4282,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47fcb372-6338-4035-8075-ac589d29e993")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 123.19 175.26 0)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4591,7 +4591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "505bcbd3-c6d3-48e5-bb69-adf875ec1f61")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -4641,7 +4641,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "579a42c4-652b-431b-ba05-a7ae267671e2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR033"
 			(at 107.95 189.23 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR038")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4723,7 +4723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59151f15-868d-4e59-afba-7690ae5e00d6")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 266.7 34.2899 0)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4799,7 +4799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dcc6d16-843a-46c6-aa8e-672259629e24")
-		(property "Reference" "C28"
+		(property "Reference" "C21"
 			(at 67.31 175.2662 0)
 			(effects
 				(font
@@ -4853,7 +4853,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C28")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4869,7 +4869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d3630c-aee0-4105-b253-4701783cb497")
-		(property "Reference" "C21"
+		(property "Reference" "C24"
 			(at 83.82 43.1862 0)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C21")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4939,7 +4939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ebf58c-bfac-4bad-a722-660802fbd064")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 72.39 42.7481 0)
 			(effects
 				(font
@@ -4993,7 +4993,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5009,7 +5009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "716f4936-6381-48e7-9a72-c61878adb368")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR027"
 			(at 60.96 173.99 0)
 			(effects
 				(font
@@ -5059,7 +5059,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR036")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fb58d85-3ce9-453b-8ce3-67dcc9321c92")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 116.84 175.2662 0)
 			(effects
 				(font
@@ -5129,7 +5129,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5145,7 +5145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80434a55-b5da-400e-9332-9e57534e58d3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -5195,7 +5195,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab67638-1ba0-4dd4-aa60-a686bb64b559")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 100.33 55.88 0)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfea54a8-cd02-404a-9b08-cf5a3bd2f570")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 204.47 119.38 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5498,7 +5498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d41089a7-ef99-4b77-b448-24914dea1409")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 203.2 60.96 0)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5563,7 +5563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d511084b-7e17-4215-8eb0-288bf7d3a135")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 203.2 44.45 0)
 			(effects
 				(font
@@ -5618,7 +5618,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5634,7 +5634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e02af0ab-b5ab-4213-a584-757ada637eb6")
-		(property "Reference" "C22"
+		(property "Reference" "C25"
 			(at 102.87 43.1862 0)
 			(effects
 				(font
@@ -5688,7 +5688,7 @@
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
 				(path "/624a087f-322b-4a70-8c29-0e4f8f018e16/e88de734-726e-4991-811a-b88126c63525"
-					(reference "C22")
+					(reference "C25")
 					(unit 1)
 				)
 			)

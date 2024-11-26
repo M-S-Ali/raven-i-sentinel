@@ -727,22 +727,22 @@
 			(uuid "13b4daa4-05b2-4eb3-9371-bd20807e9d8f")
 		)
 		(pin "PACK-" output
-			(at 160.02 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5f017eae-56a8-446b-b6eb-e8cb0fd9d1a8")
-		)
-		(pin "BAT-" input
 			(at 217.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+			(uuid "5f017eae-56a8-446b-b6eb-e8cb0fd9d1a8")
+		)
+		(pin "BAT-" input
+			(at 160.02 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 			(uuid "507532b2-97ef-4dbd-a395-cb37fc820406")
 		)
