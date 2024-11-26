@@ -29,12 +29,11 @@ This document provides links to official datasheets and manuals for the major co
 ---
 
 ## Shunt Resistor   
-- **LR122WF200NT4E (2mOhm Resistor)**    
-  [2mOhm Metal Strip Chip Resistor Datasheet (ROYAL OHM)](https://www.royalohm.com/assets/pdf/products/smd/15.pdf)
+- **WSTM2512DLR002FYR (2mOhm Resistor)**    
+  [2mOhm Chip Resistor Datasheet (Littlefuse)](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4897/WSTM_Series_3-17-23.pdf)
 ---
 
-# Transistor 
-- **MMBT2222A**   
-  [MMBT2222A NPN Datasheet (Diodes Incorporated)](https://www.diodes.com/assets/Datasheets/ds30041.pdf)
-  ---
-  
+## Transistor    
+- **BC817**    
+  [BC817 NPN Datasheet (Diodes Incorporated)](https://www.diodes.com/assets/Datasheets/ds11107.pdf)
+---
