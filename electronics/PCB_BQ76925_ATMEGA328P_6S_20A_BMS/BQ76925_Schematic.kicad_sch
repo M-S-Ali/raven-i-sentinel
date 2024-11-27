@@ -2294,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 132.08) (xy 144.78 144.78)
+			(xy 144.78 137.16) (xy 144.78 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 132.08) (xy 176.53 144.78)
+			(xy 176.53 137.16) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3394,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 121.92) (xy 176.53 127)
+			(xy 176.53 121.92) (xy 176.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3424,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 121.92) (xy 144.78 127)
+			(xy 144.78 121.92) (xy 144.78 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3844,6 +3844,28 @@
 			)
 		)
 		(uuid "d4a681d2-c813-4249-bd00-b687bb1df68e")
+	)
+	(label "A-"
+		(at 176.53 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae8a0fd-ac87-48ce-b3e9-f94e15b696cf")
+	)
+	(label "A+"
+		(at 144.78 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5410c4a-4820-41b6-a71c-97fb225cae08")
 	)
 	(hierarchical_label "PACK-"
 		(shape input)
@@ -5794,7 +5816,7 @@
 	)
 	(symbol
 		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:R_Small_US")
-		(at 144.78 129.54 180)
+		(at 144.78 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5803,7 +5825,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c539b96-acb5-4e65-a23e-9b3ab43dcf0a")
 		(property "Reference" "R9"
-			(at 147.32 128.2699 0)
+			(at 147.32 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5834,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 147.32 130.8099 0)
+			(at 147.32 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5843,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 144.78 129.54 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 129.54 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5861,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 144.78 129.54 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6500,7 @@
 	)
 	(symbol
 		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:R_Small_US")
-		(at 176.53 129.54 180)
+		(at 176.53 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6487,7 +6509,7 @@
 		(fields_autoplaced yes)
 		(uuid "afd7da6d-e0a7-43e6-8b0d-851407d02ab7")
 		(property "Reference" "R12"
-			(at 179.07 128.2699 0)
+			(at 179.07 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6518,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 179.07 130.8099 0)
+			(at 179.07 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6527,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 176.53 129.54 0)
+			(at 176.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 129.54 0)
+			(at 176.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6545,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 176.53 129.54 0)
+			(at 176.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
