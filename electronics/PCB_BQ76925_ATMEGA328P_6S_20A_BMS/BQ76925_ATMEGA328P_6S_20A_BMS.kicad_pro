@@ -465,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb_assets/Raven_I_Sentinel_v1.0_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
