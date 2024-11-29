@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BQ76925_ATMEGA328P_6S_20A_BMS")(type "KiCad")(uri "${KIPRJMOD}/pcb_library/footprints/BQ76925_ATMEGA328P_6S_20A_BMS.pretty")(options "")(descr ""))
+)

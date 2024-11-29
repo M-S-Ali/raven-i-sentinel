@@ -1,0 +1,317 @@
+(footprint "Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf")
+	(tags "SMD SMT ceramic resonator filter")
+	(property "Reference" "REF**"
+		(at 2.5 -0.01 -90)
+		(layer "F.SilkS")
+		(uuid "36eddcea-e8d2-41ee-b312-fce10897aa45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "16Mhz"
+		(at 0 1.8 180)
+		(layer "F.Fab")
+		(uuid "196a34d3-44d0-4e1b-9b7c-3582b15c69d2")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(property "Footprint" "Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87eb9486-48b9-4e6e-95ea-03c2af6c57f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.eu/ae/en/details/cstne16m0v53c000r0/smd-ceramic-filters-and-resonators/murata/?gad_source=1&gclid=CjwKCAjw4ri0BhAvEiwA8oo6F6TLdn_7o8Vn59_DpBYID6DsNxvH7L5rj0jpNEVgGXheNDKK1tBj6hoCNnwQAvD_BwE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff8c198-a87a-4e7b-8c73-b282359dd17c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Three pin crystal, GND on pin 3, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "705ca6ce-acf4-49b6-8332-7d96235f233a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.200001)
+		(end -2 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8df1578d-9ebf-4dac-915f-35d7fa4cbd80")
+	)
+	(fp_line
+		(start -2 0.8)
+		(end -2 1.200001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac60d409-d664-4cb5-a8f7-f90b8a9b88c6")
+	)
+	(fp_line
+		(start -1.8 -1.2)
+		(end -1.65 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec324aa-ac83-41a6-8ba6-873b4bee134e")
+	)
+	(fp_line
+		(start -1.8 0.8)
+		(end -1.8 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a887a4b4-bf49-4c46-b3ea-479d34f5a630")
+	)
+	(fp_line
+		(start -1.8 0.8)
+		(end -1.8 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17e00e26-471b-4922-ba65-9144f275ec96")
+	)
+	(fp_line
+		(start -1.8 1.2)
+		(end -1.65 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3533357a-15e1-405e-ad17-53aad5e8c118")
+	)
+	(fp_line
+		(start -0.75 1.2)
+		(end -0.8 1.200001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8adef53-31dc-4e56-9cb8-f96c4f8dc508")
+	)
+	(fp_line
+		(start -0.75 1.2)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5e62b61-92e5-4a8a-84b7-c327a546e591")
+	)
+	(fp_line
+		(start 1.8 -1.2)
+		(end 1.65 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3eff5a9-d681-4527-8a3b-8133fc16e401")
+	)
+	(fp_line
+		(start 1.8 -1.2)
+		(end 1.8 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee2909b7-97dc-4823-9e3e-5cf9f54a70a3")
+	)
+	(fp_line
+		(start 1.8 0.8)
+		(end 1.8 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "061816a1-b15d-4a0b-8541-0a064bfaf63a")
+	)
+	(fp_line
+		(start 1.8 1.2)
+		(end 1.65 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2f6372e-f16c-4c2a-b444-506fa8f24054")
+	)
+	(fp_line
+		(start -1.749999 -1.85)
+		(end 1.749999 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "603860b4-7c83-4c3b-a228-0529bef23aa8")
+	)
+	(fp_line
+		(start -1.749999 1.85)
+		(end -1.749999 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b2d2e72-0ac1-40bf-af49-509550c3eb52")
+	)
+	(fp_line
+		(start 1.749999 -1.85)
+		(end 1.749999 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbd74a83-8d46-44e4-b65a-a7565201b014")
+	)
+	(fp_line
+		(start 1.749999 1.85)
+		(end -1.749999 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fee71aae-c37d-4963-9a64-27ddd5a5e1b5")
+	)
+	(fp_line
+		(start -1.5 0.3)
+		(end -1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85fe0346-363d-45fd-b991-d941b4d6e993")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4a042b9-011b-499e-81d5-296e0ab39993")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end 1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6aeccd67-822c-4538-93ec-e1338fb8d17e")
+	)
+	(fp_line
+		(start 1.5 -0.8)
+		(end -1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cb1b2ad-44fb-4bd9-90b8-497e5db9c215")
+	)
+	(fp_line
+		(start 1.5 0.8)
+		(end 1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfc085dc-fb89-4312-a4ef-58b4a52d9fff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -0.05 180)
+		(layer "F.Fab")
+		(uuid "2c146e74-e2b9-4e94-ae15-de45eb39cbdb")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 0.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8ec9edcd-1705-4688-bf28-59ce0615805f")
+	)
+	(pad "2" smd rect
+		(at 1.2 0)
+		(size 0.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8cc55171-d6a8-4886-a3f6-66ecd2375c25")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 0.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c120c79-6c7b-43c3-a5d7-76e40035d02d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

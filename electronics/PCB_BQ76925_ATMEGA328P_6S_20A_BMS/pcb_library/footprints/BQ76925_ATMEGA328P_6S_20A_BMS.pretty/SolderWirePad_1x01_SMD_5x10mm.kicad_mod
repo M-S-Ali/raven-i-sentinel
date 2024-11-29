@@ -1,0 +1,124 @@
+(footprint "SolderWirePad_1x01_SMD_5x10mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
+	(tags "MesurementPoint Square SMDPad 5mmx10mm ")
+	(property "Reference" "REF**"
+		(at -0.005 6.075 180)
+		(layer "F.SilkS")
+		(uuid "0c987c6e-9886-4f25-a612-a921bbf871b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at 0 6.35 180)
+		(layer "F.Fab")
+		(uuid "f6dead42-f627-4f9f-9627-2c6e74b60def")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03f276a7-0466-4474-a188-1254e5224a12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da64025b-d374-47c6-8f46-5bcb12440983")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "865a86fc-0d85-4c5d-aada-aa1d5ae235cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(fp_line
+		(start -2.75 -5.25)
+		(end -2.75 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0dcf7373-e228-4f32-adf5-685a850144e0")
+	)
+	(fp_line
+		(start -2.75 5.25)
+		(end 2.75 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "898c77bb-f695-4458-8248-302f7d61043b")
+	)
+	(fp_line
+		(start 2.75 -5.25)
+		(end -2.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6f52799-1e75-4fab-a4e7-5715bc34284d")
+	)
+	(fp_line
+		(start 2.75 5.25)
+		(end 2.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33ba2e25-c75a-490f-a125-031850053cbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "77067865-f0e8-4b65-a20b-8b1280ba13ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5 10)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ada77f6f-1940-41c1-937a-a0b6b8a38ff3")
+	)
+)

@@ -3175,7 +3175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 59.69 173.99 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:TO-220-3_Horizontal_TabDown"
 			(at 200.406 77.216 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 96.52 165.1 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:TO-220-3_Horizontal_TabDown"
 			(at 134.874 77.216 0)
 			(effects
 				(font
@@ -3588,7 +3588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.49 179.07 0)
 			(effects
 				(font
@@ -3658,7 +3658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 82.55 0)
 			(effects
 				(font
@@ -3728,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 171.45 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.89 173.99 0)
 			(effects
 				(font
@@ -3934,7 +3934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.13 171.45 0)
 			(effects
 				(font
@@ -4004,7 +4004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:D_SOD-123"
 			(at 154.94 82.55 90)
 			(effects
 				(font
@@ -4074,7 +4074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -4144,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:SOT-23"
 			(at 104.14 99.06 0)
 			(effects
 				(font
@@ -4284,7 +4284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:SOT-23-6"
 			(at 83.82 176.53 0)
 			(effects
 				(font
@@ -4436,7 +4436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 57.15 0)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:CP_Elec_6.3x5.7"
 			(at 44.45 173.99 0)
 			(effects
 				(font
@@ -4646,7 +4646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:CP_Elec_6.3x5.7"
 			(at 120.65 173.99 0)
 			(effects
 				(font
@@ -4715,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:TO-220-3_Horizontal_TabDown"
 			(at 200.406 50.546 0)
 			(effects
 				(font
@@ -4786,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:L_7.3x7.3_H3.5"
 			(at 106.68 167.64 0)
 			(effects
 				(font
@@ -4922,7 +4922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:D_SOD-123"
 			(at 154.94 57.15 90)
 			(effects
 				(font
@@ -4992,7 +4992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 177.8 90)
 			(effects
 				(font
@@ -5059,7 +5059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:TO-220-3_Horizontal_TabDown"
 			(at 134.874 50.546 0)
 			(effects
 				(font
@@ -5199,7 +5199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -5269,7 +5269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "BQ76925_ATMEGA328P_6S_20A_BMS:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 101.6 0)
 			(effects
 				(font
