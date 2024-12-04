@@ -4,5 +4,8 @@
 *.bak
 fp-info-cache
 
+# python virtual environment
+.venv/
+
 # Official Datasheets
 docs/*.pdf
