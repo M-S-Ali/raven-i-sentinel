@@ -3494,7 +3494,7 @@
 		)
 		(uuid "4ba9029f-9363-49bc-aef4-2742ee184815")
 	)
-	(label "5V"
+	(label "+5V"
 		(at 182.88 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3505,7 +3505,7 @@
 		)
 		(uuid "65a01345-d5cc-49db-a275-0b34457bc751")
 	)
-	(label "5V"
+	(label "+5V"
 		(at 119.38 172.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3703,7 +3703,7 @@
 		)
 		(uuid "e96cf867-9bab-43b7-9fd6-d05d7e1c8fed")
 	)
-	(label "5V"
+	(label "+5V"
 		(at 243.84 31.75 0)
 		(fields_autoplaced yes)
 		(effects
