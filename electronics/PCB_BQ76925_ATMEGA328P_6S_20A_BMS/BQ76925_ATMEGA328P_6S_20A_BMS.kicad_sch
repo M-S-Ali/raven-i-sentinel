@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "624a087f-322b-4a70-8c29-0e4f8f018e16")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	(lib_symbols
 		(symbol "BQ76925_ATMEGA328P_6S_20A_BMS:Conn_01x01"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -80,17 +82,6 @@
 			)
 			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
 					(stroke
@@ -99,6 +90,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -120,7 +122,144 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "1.	This PCB design is licensed under CC BY-SA 4.0"
+		(exclude_from_sim no)
+		(at 13.97 171.45 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "https://creativecommons.org/licenses/by-sa/4.0/")
+		)
+		(uuid "069af0e2-ef62-4566-a664-06095b678ff2")
+	)
+	(text "Justification"
+		(exclude_from_sim no)
+		(at 241.808 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "485bfaad-61da-4cb7-8349-52e2e6de434c")
+	)
+	(text "1.	Kick start development of a value-oriented, robust BMS with external communication capabilities."
+		(exclude_from_sim no)
+		(at 15.24 65.532 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "59ff7015-8c9a-4abd-a67c-257297033946")
+	)
+	(text "~{TVNBTEk=}"
+		(exclude_from_sim no)
+		(at 271.526 175.26 0)
+		(effects
+			(font
+				(face "Symbol")
+				(size 3 3)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "651c2dff-27f7-4566-9b21-54b43488e83f")
+	)
+	(text "License Agrement"
+		(exclude_from_sim no)
+		(at 34.29 162.56 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "9522e7dc-9c7d-4679-bef8-f7aa9d43f5cb")
+	)
+	(text "Warnings"
+		(exclude_from_sim no)
+		(at 240.284 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a85aea3c-e39d-42f9-bd38-214b03ab4b27")
+	)
+	(text "2. 	This PCB design is provided \"as-is,\" without warranty of any kind,\n	either express or implied, including but not limited to the warranties of merchantability, \n	fitness for a particular purpose, or non-infringement. \n3. 	The author(s) shall not be held liable for any damages,\n	injuries, or other consequences arising from the use of this design."
+		(exclude_from_sim no)
+		(at 13.716 185.42 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "b6bdb0b8-11d1-46b8-bd7d-40cd3d6b5743")
+	)
+	(text "General Comments"
+		(exclude_from_sim no)
+		(at 245.11 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6bdeaa1-b09d-4374-af08-0e5830a31242")
+	)
+	(text "Version ${REVISION}"
+		(exclude_from_sim no)
+		(at 36.322 42.164 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "b9d810bf-9e4b-47dc-bd55-35585804a7d9")
+	)
+	(text "Raven-I Sentinel"
+		(exclude_from_sim no)
+		(at 64.77 24.13 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "c7fae0cf-b2cf-4212-842f-38990f255f55")
+	)
+	(text "Version Goal"
+		(exclude_from_sim no)
+		(at 29.464 57.15 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "dad9e308-a04c-4724-a874-22eb134e821a")
+	)
+	(text "Legend"
+		(exclude_from_sim no)
+		(at 244.348 57.15 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "e4b11032-c2cb-40c8-a136-f9deb0c035a2")
 	)
 	(wire
 		(pts
@@ -292,142 +431,6 @@
 		)
 		(uuid "9abbb6fc-34d8-4596-8d88-ac2ad1c966b8")
 	)
-	(text "1.	This PCB design is licensed under CC BY-SA 4.0"
-		(exclude_from_sim no)
-		(at 13.97 171.45 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-			)
-			(justify left)
-			(href "https://creativecommons.org/licenses/by-sa/4.0/")
-		)
-		(uuid "069af0e2-ef62-4566-a664-06095b678ff2")
-	)
-	(text "Justification"
-		(exclude_from_sim no)
-		(at 241.808 68.072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-		)
-		(uuid "485bfaad-61da-4cb7-8349-52e2e6de434c")
-	)
-	(text "1.	Kick start development of a value-oriented, robust BMS with external communication capabilities."
-		(exclude_from_sim no)
-		(at 15.24 65.532 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "59ff7015-8c9a-4abd-a67c-257297033946")
-	)
-	(text "~{TVNBTEk=}"
-		(exclude_from_sim no)
-		(at 271.526 175.26 0)
-		(effects
-			(font
-				(face "Symbol")
-				(size 3 3)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "651c2dff-27f7-4566-9b21-54b43488e83f")
-	)
-	(text "License Agrement"
-		(exclude_from_sim no)
-		(at 34.29 162.56 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "9522e7dc-9c7d-4679-bef8-f7aa9d43f5cb")
-	)
-	(text "Warnings"
-		(exclude_from_sim no)
-		(at 240.284 71.628 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "a85aea3c-e39d-42f9-bd38-214b03ab4b27")
-	)
-	(text "2. 	This PCB design is provided \"as-is,\" without warranty of any kind,\n	either express or implied, including but not limited to the warranties of merchantability, \n	fitness for a particular purpose, or non-infringement. \n3. 	The author(s) shall not be held liable for any damages,\n	injuries, or other consequences arising from the use of this design."
-		(exclude_from_sim no)
-		(at 13.716 185.42 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "b6bdb0b8-11d1-46b8-bd7d-40cd3d6b5743")
-	)
-	(text "General Comments"
-		(exclude_from_sim no)
-		(at 245.11 64.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b6bdeaa1-b09d-4374-af08-0e5830a31242")
-	)
-	(text "Version ${REVISION}"
-		(exclude_from_sim no)
-		(at 36.322 42.164 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6.35 6.35)
-			)
-		)
-		(uuid "b9d810bf-9e4b-47dc-bd55-35585804a7d9")
-	)
-	(text "Raven-I Sentinel"
-		(exclude_from_sim no)
-		(at 64.77 24.13 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 10.16 10.16)
-			)
-		)
-		(uuid "c7fae0cf-b2cf-4212-842f-38990f255f55")
-	)
-	(text "Version Goal"
-		(exclude_from_sim no)
-		(at 29.464 57.15 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "dad9e308-a04c-4724-a874-22eb134e821a")
-	)
-	(text "Legend"
-		(exclude_from_sim no)
-		(at 244.348 57.15 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "e4b11032-c2cb-40c8-a136-f9deb0c035a2")
-	)
 	(symbol
 		(lib_id "BQ76925_ATMEGA328P_6S_20A_BMS:Conn_01x01")
 		(at 30.48 97.79 0)
@@ -561,6 +564,10 @@
 	(sheet
 		(at 71.12 78.74)
 		(size 57.15 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -590,93 +597,93 @@
 		)
 		(pin "BAT-" output
 			(at 71.12 97.79 180)
+			(uuid "fd2f3bff-9dbb-4490-8f4b-21b5b9d9e9b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fd2f3bff-9dbb-4490-8f4b-21b5b9d9e9b0")
 		)
 		(pin "ALERT" output
 			(at 106.68 107.95 270)
+			(uuid "bac7698f-5396-4a4a-bca1-e64de2df6edb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bac7698f-5396-4a4a-bca1-e64de2df6edb")
 		)
 		(pin "VIOUT" output
 			(at 116.84 107.95 270)
+			(uuid "5f93d9a0-1c0e-4b97-808b-b2eb48105714")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f93d9a0-1c0e-4b97-808b-b2eb48105714")
 		)
 		(pin "VCOUT" output
 			(at 119.38 107.95 270)
+			(uuid "00dfc5f1-58d8-4c11-8655-6d7d6f1d8278")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "00dfc5f1-58d8-4c11-8655-6d7d6f1d8278")
 		)
 		(pin "SCL" input
 			(at 109.22 107.95 270)
+			(uuid "e9021465-9c9e-4a13-abf0-8966385dc510")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e9021465-9c9e-4a13-abf0-8966385dc510")
 		)
 		(pin "VREF" output
 			(at 111.76 107.95 270)
+			(uuid "d1f41643-76db-4111-be03-b3b9124c30b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d1f41643-76db-4111-be03-b3b9124c30b5")
 		)
 		(pin "SDA" bidirectional
 			(at 114.3 107.95 270)
+			(uuid "33bb2ea5-0279-4ab3-b91e-b411bbf30bae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "33bb2ea5-0279-4ab3-b91e-b411bbf30bae")
 		)
 		(pin "PACK-" input
 			(at 128.27 97.79 0)
+			(uuid "b4515c2b-a483-4b3c-b625-a2faed0a3ffb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b4515c2b-a483-4b3c-b625-a2faed0a3ffb")
 		)
 		(pin "VTB" output
 			(at 121.92 107.95 270)
+			(uuid "2df693d7-1e99-4fbf-9f62-6db86a0dd2dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2df693d7-1e99-4fbf-9f62-6db86a0dd2dc")
 		)
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
@@ -689,6 +696,10 @@
 	(sheet
 		(at 160.02 78.74)
 		(size 57.15 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -718,33 +729,33 @@
 		)
 		(pin "SW" input
 			(at 200.66 107.95 270)
+			(uuid "13b4daa4-05b2-4eb3-9371-bd20807e9d8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "13b4daa4-05b2-4eb3-9371-bd20807e9d8f")
 		)
 		(pin "PACK-" output
 			(at 217.17 97.79 0)
+			(uuid "5f017eae-56a8-446b-b6eb-e8cb0fd9d1a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f017eae-56a8-446b-b6eb-e8cb0fd9d1a8")
 		)
 		(pin "BAT-" input
 			(at 160.02 97.79 180)
+			(uuid "507532b2-97ef-4dbd-a395-cb37fc820406")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "507532b2-97ef-4dbd-a395-cb37fc820406")
 		)
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
@@ -757,6 +768,10 @@
 	(sheet
 		(at 100.33 129.54)
 		(size 27.94 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -786,83 +801,83 @@
 		)
 		(pin "VIOUT" input
 			(at 116.84 129.54 90)
+			(uuid "2babc18c-708f-4d29-b9ec-8c41aea01669")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2babc18c-708f-4d29-b9ec-8c41aea01669")
 		)
 		(pin "SDA" bidirectional
 			(at 114.3 129.54 90)
+			(uuid "a5e93dc1-90d3-4ab8-9f6b-82b876869d2a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a5e93dc1-90d3-4ab8-9f6b-82b876869d2a")
 		)
 		(pin "VCOUT" input
 			(at 119.38 129.54 90)
+			(uuid "bdad1ccf-e392-4151-82c0-67b5b67717d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bdad1ccf-e392-4151-82c0-67b5b67717d5")
 		)
 		(pin "VREF" input
 			(at 111.76 129.54 90)
+			(uuid "83ecd72d-b0bd-4be7-aa8b-507c760f161b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "83ecd72d-b0bd-4be7-aa8b-507c760f161b")
 		)
 		(pin "ALERT" input
 			(at 106.68 129.54 90)
+			(uuid "4f4581c4-734f-469d-b2c7-0d76733ca8d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f4581c4-734f-469d-b2c7-0d76733ca8d5")
 		)
 		(pin "SCL" output
 			(at 109.22 129.54 90)
+			(uuid "8477130d-ba6d-4d99-b200-3dda22659151")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8477130d-ba6d-4d99-b200-3dda22659151")
 		)
 		(pin "VTB" input
 			(at 121.92 129.54 90)
+			(uuid "00d91034-4c87-4a4c-9aab-41c1803be52a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "00d91034-4c87-4a4c-9aab-41c1803be52a")
 		)
 		(pin "SW" output
 			(at 128.27 138.43 0)
+			(uuid "65862744-f57f-45d4-ae68-1128ab270a62")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "65862744-f57f-45d4-ae68-1128ab270a62")
 		)
 		(instances
 			(project "BQ76925_ATMEGA328P_6S_20A_BMS"
@@ -877,4 +892,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
