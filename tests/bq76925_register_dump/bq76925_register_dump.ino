@@ -16,7 +16,7 @@ void loop() {
   for (int i=0x20; i<0x28; i++){
     Wire.requestFrom(i,1);
     while(Wire.available()){
-      uint8_t reg = Wire.read();
+      byte reg = Wire.read();
       Serial.print(i,HEX);
       Serial.print(" : 0b");
       Serial.println(reg, BIN);
