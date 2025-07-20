@@ -2,6 +2,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include "bq76925_driver.h"
+#include <Arduino_FreeRTOS.h>
 
 static void i2c_send_data(uint8_t reg_addr, uint8_t data);
 
@@ -24,9 +25,9 @@ void LFP_Battery::update_cell_v(){
   for (uint8_t i=0; i<6; i++){
     i2c_send_data(0x21, (1 << 4) | i);
     for(int j = 0; j<=25000; j++);
-    cell_v[i] = (analogRead(voltage_pin)*1.1 / 1023.0 * 100);
+    vTaskDelay(20);
+    cell_v[i] = (analogRead(voltage_pin)*1.1 / 1023.0 + vcn_oc[i]*0.001) * (1+vcn_gc[i]*0.001) /0.3 * 100;
   }
-
 }
 
 void LFP_Battery::update_pack_param(){
