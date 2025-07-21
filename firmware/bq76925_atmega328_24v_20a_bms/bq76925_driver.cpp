@@ -36,8 +36,8 @@ void LFP_Battery::update_pack_param(){
     total += cell_v[i];
   
   pack_v = total;
-  pack_i = analogRead(current_pin);
-  pack_temperature = analogRead(temperature_pin);
+  pack_i = 84;//analogRead(current_pin);
+  pack_temperature = 235;//analogRead(temperature_pin);
 }
 
 void LFP_Battery::set_balancing(uint8_t cell){
