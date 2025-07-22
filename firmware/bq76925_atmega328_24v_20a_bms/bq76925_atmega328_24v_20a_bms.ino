@@ -64,3 +64,34 @@ void read_and_update_cell_voltage( void *pvParameters __attribute__((unused)) ) 
     }
   }
 }
+
+void cell_balancing(){
+  // variable to store average and cell balancing register
+  uint8_t cell_avg_v = 0;
+  uint8_t cell_balancing_reg=0;
+    
+  //calculate the average
+  for (uint8_t i=0; i<6; i++)
+    cell_avg_v += battery.cell_v[i];
+  cell_avg_v = cell_avg_v/6;
+    
+  // mark the cells eligible for balancing
+  for (uint8_t i=0; i<6; i++){
+    if (battery.cell_v[i]>360 && (battery.cell_v[i]-cell_avg_v > 20))
+      cell_balancing_reg |= 1<<i;
+  }
+            
+  // if two adjacent cells are marked for balancing remove mark for cell with lower voltage
+  for (uint8_t i=0; i<6; i++){
+    if (cell_balancing_reg>>i & 1){
+      if (cell_balancing_reg>>i+1 & 1){
+        if (battery.cell_v[i]>battery.cell_v[i+1])
+          cell_balancing_reg &= ~(1<<(i+1));
+        else
+          cell_balancing_reg &= ~(1<<i); 
+      }
+    }
+  }
+  // update value cell_balancing_reg to bq76925
+  // balancing delay to be implemented
+}
